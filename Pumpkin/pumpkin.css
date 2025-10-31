@@ -13,3 +13,33 @@ feel free to change style but do not delete these*/
 }
 
 /*Add code for tutorial below this line*/
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse at center, #160909 0%,#160909 45%,#291111 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pumpkin {
+  height: 11em;
+  width: 15em;
+  background: #ff785a;
+  border: 0.4em solid #a14907;
+    border-radius: 70%/110%;
+    position: relative;
+    box-shadow: inset 0 0px 20px #a14907, 0 0 30px -4px red;
+    z-index: 1;
+    animation: float 3s infinite;
+}
+
+.
